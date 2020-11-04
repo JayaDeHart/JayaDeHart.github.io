@@ -1,0 +1,195 @@
+.bottom-row
+{
+	margin-top: 7.5%;
+	padding: 0 5%;
+}
+.buyer
+{
+  margin-top:5px;
+	font-size: 0.9rem;
+}
+.buyer-img
+{
+	border-radius: 100%;
+	float:left;
+  width: 50px;
+  margin-right: 20px;
+}
+.c1
+{
+	bottom: 50px;
+	position: relative;
+}
+.c2
+{
+	bottom: 25px;
+	position: relative;
+}
+
+.container-fluid
+{
+	background-color: white;
+	padding: 7% 7.5% 0 7.5%;
+	position: relative;
+}
+.desktop-background-bottom
+{
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+.desktop-background-top
+{
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.fa-star
+{
+	color: orange;
+	margin: 5px;
+}
+.header
+{
+	padding: 15px 0;
+	position: relative;
+	text-align: left;
+}
+.main-desc
+{
+	color: hsl(303, 10%, 53%);
+	font-size: 1rem;
+	font-weight: 400;
+}
+.main-tag
+{
+	color: hsl(300, 43%, 22%);
+	font-size: 3rem;
+	font-weight: 700;
+}
+.mobile-background-bottom
+{
+	display: none;
+}
+.mobile-background-top
+{
+	display: none;
+}
+.nopad-left
+{
+	padding-left: 0;
+}
+.nopad-right
+{
+	padding-right: 0;
+}
+.one
+{
+	position: relative;
+	right: 100px;
+}
+.review
+{
+	background-color: hsl(300, 24%, 96%);
+	border-radius: 8px;
+	color: hsl(300, 43%, 22%);
+	font-size: 0.9rem;
+	margin: 15px;
+	margin-bottom: 0;
+	margin-right: 0;
+	padding: 15px;
+}
+.testimonial-card
+{
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 8px;
+	color: white;
+	margin-bottom: 30px;
+	padding: 30px 15px;
+}
+.testimony
+{
+	color: hsl(300, 24%, 96%);
+	font-size: 0.85rem;
+	font-weight: 300;
+	line-height: 2;
+}
+.top-col
+{
+	padding: 0 5%;
+}
+.two
+{
+	position: relative;
+	right: 50px;
+}
+@media(max-width: 768px)
+{
+	.c1
+	{
+		position: static;
+	}
+	.c2
+	{
+		position: static;
+	}
+	.container-fluid
+	{
+		padding: 5% 2.5%;
+		text-align: center;
+	}
+	.nopad-left
+	{
+		padding-left: 15px !important;
+	}
+	.nopad-right
+	{
+		padding-right: 0 !important;
+	}
+	.one
+	{
+		position: static;
+	}
+	.two
+	{
+		position: static;
+  }
+  .col-lg-4{
+    margin-right:0;
+    padding-right:0;
+  }
+}
+@media(max-width:375px)
+{
+	.desktop-background-bottom
+	{
+		display: none;
+	}
+	.desktop-background-top
+	{
+		display: none;
+	}
+	.mobile-background-bottom
+	{
+		bottom: 0;
+		display: inline-block;
+		position: absolute;
+		right: 0;
+	}
+	.mobile-background-top
+	{
+		display: inline-block;
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+}
+body
+{
+	font-family: 'Spartan', sans-serif;
+}
+h3
+{
+	color: hsl(333, 80%, 67%);
+	font-size: 0.85rem;
+}
